@@ -1,0 +1,40 @@
+//poniendo botones
+
+.tex__button {
+    padding: .7rem 1rem;
+    border-radius: 30px;
+    font-family: $Roboto;
+    font-size: $medium;
+    color: $white;
+}
+
+
+.text__button__small{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+    &:hover {
+        background-color: $nickel;
+        border-color: $nickel;
+        color: $eerie-black;
+        text-color: white;
+    }
+
+}
+
+.text__button__medium{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+    &:hover {
+        background-color: $nickel;
+        border-color: $nickel;
+        color: $eerie-black;
+        text-color: white;
+    }
+}
+

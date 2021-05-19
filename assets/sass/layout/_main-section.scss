@@ -1,0 +1,80 @@
+//texto
+
+.post__content__date{
+	font-family: $playfair;
+	font-weight: $regular;
+	font-size: $large;
+	color: $raisin-black;
+	opacity: 70%;
+	margin-top:5rem;
+	margin-bottom:5rem;
+
+}
+
+.post__content__entry p{
+	line-height:2em;
+	font-size: $medium;
+	margin-bottom:3em;
+	
+}
+
+.text__span{
+    color: $ruddy-pink;
+}
+
+.text__button{
+	color: $nickel;
+	margin-top: 5rem;
+	margin-bottom:6rem;
+	vertical-align: center;
+
+}
+
+@media (max-width:800px){
+	.text__button{
+	vertical-align: center;
+	text-align: center;
+	}
+
+}
+
+
+//blogger naomi
+
+.author {
+    border-bottom: 1px solid #999; 
+}
+
+.author__card__img{
+	width:150px;
+	
+}
+
+.card-tittle_1,
+.card-tittle_2 {
+    color: $fuzzy-wuzzy;
+}
+
+
+
+.author .card-title{
+    font-family: $playfair;
+    font-weight: $x-large;
+    
+}
+
+@media (max-width:800px){
+	h5{
+	vertical-align:center;
+    text-align:center;
+    font-style: $eerie-black;
+	}
+
+	.author a{
+	display: block;
+	text-align: center;
+	}
+}
+
+
+
